@@ -1,0 +1,33 @@
+{
+    "name": "gegetchkori/laravel_get_enum_values",
+    "description": "function for get enum values from migrated tables column",
+    "keywords": ["laravel", "helper", "helpers", "enum"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giorgi Gegetchkori",
+            "email": "giorgi.gegetchkori.1@btu.edu.ge"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gegetchkori\\LaravelGetEnumValues\\": "src"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1|^8.0",
+        "laravel/framework": "5.7.*|5.8.*|^6.0|^7.0|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gegetchkori\\LaravelGetEnumValues\\GetEnumValuesServiceProvider"
+            ]
+        }
+    }
+}
