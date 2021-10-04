@@ -31,3 +31,21 @@ Then run this command on terminal in your project root:
 php artisan vendor:publish --provider="Gegetchkori\LaravelGetEnumValues\GetEnumValuesServiceProvider"
 ```
 
+# Usage
+
+run this command:
+
+```
+php artisan make:controller EnumValuesController
+```
+
+create some function and call this method from helpers.php
+
+```
+public function test() 
+{
+  $enumoption = General::getEnumValues('table_name','column_name');
+  
+  return $enumoption;
+}
+```
