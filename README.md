@@ -1,5 +1,5 @@
 # get-enum-values-for-laravel
-helper function for get tables enum values in Laravel
+Helper function for get tables enum values in Laravel.
 
 
 
