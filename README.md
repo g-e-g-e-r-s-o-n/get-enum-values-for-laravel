@@ -35,7 +35,7 @@ php artisan vendor:publish --provider="Gegetchkori\LaravelGetEnumValues\GetEnumV
 
 # Usage
 
-Run this command:
+Configure .env file, create migration, put into enum type column and run this command:
 
 ```
 php artisan make:controller EnumValuesController
