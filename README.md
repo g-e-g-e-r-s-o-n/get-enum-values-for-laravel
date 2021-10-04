@@ -7,6 +7,8 @@ Helper function for get tables enum values in Laravel.
 [![Daily Downloads](https://poser.pugx.org/gegetchkori/laravel_get_enum_values/d/daily)](https://packagist.org/packages/gegetchkori/laravel_get_enum_values)
 
 
+![Laravel get enum values](https://banners.beyondco.de/Laravel%20get%20enum%20values.png?theme=light&packageManager=composer+require&packageName=gegetchkori%2Flaravel_get_enum_values&pattern=architect&style=style_1&description=Helper+function+for+get+tables+enum+values+in+Laravel.&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
+
 
 # Requirements
 
