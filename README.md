@@ -33,13 +33,13 @@ php artisan vendor:publish --provider="Gegetchkori\LaravelGetEnumValues\GetEnumV
 
 # Usage
 
-run this command:
+Run this command:
 
 ```
 php artisan make:controller EnumValuesController
 ```
 
-create some function and call this method from helpers.php
+Create some function and call this method from helpers.php
 
 ```
 public function test() 
