@@ -1,4 +1,4 @@
-# get-enum-values-for-laravel
+# Laravel get enum values
 Helper function for get tables enum values in Laravel.
 
 [![License](https://poser.pugx.org/gegetchkori/laravel_get_enum_values/license)](https://packagist.org/packages/gegetchkori/laravel_get_enum_values)
