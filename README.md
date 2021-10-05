@@ -23,13 +23,13 @@ Helper function for get tables enum values in Laravel.
 
 Run this command on terminal in your project root:
 
-```bash
+```cmd
 composer require gegetchkori/laravel_get_enum_values
 ```
 
 Then run this command on terminal in your project root:
 
-```bash
+```cmd
 php artisan vendor:publish --provider="Gegetchkori\LaravelGetEnumValues\GetEnumValuesServiceProvider"
 ```
 
@@ -37,7 +37,7 @@ php artisan vendor:publish --provider="Gegetchkori\LaravelGetEnumValues\GetEnumV
 
 Configure .env file, create migration, put into enum type column and run this command:
 
-```bash
+```cmd
 php artisan make:controller EnumValuesController
 ```
 
