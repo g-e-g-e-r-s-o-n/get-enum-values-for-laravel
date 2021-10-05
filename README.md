@@ -37,13 +37,13 @@ php artisan vendor:publish --provider="Gegetchkori\LaravelGetEnumValues\GetEnumV
 
 Configure .env file, create migration, put into enum type column and run this command:
 
-```
+```cmd
 php artisan make:controller EnumValuesController
 ```
 
 Create some function and call this method from helpers.php
 
-```
+```php
 public function test() 
 {
   $enumoption = General::getEnumValues('table_name','column_name');
