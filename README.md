@@ -51,3 +51,13 @@ public function test()
   return $enumoption;
 }
 ```
+
+Create appropriate route in web.php
+
+# Result
+
+Returned data type 
+
+```
+array
+```
